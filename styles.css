@@ -1,7 +1,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: maroon;
-    background-image: url(./dirtbike4.jpeg);
+    background-image: url(./dirtbike.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,7 +18,7 @@ h1 {
 main {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #head-shot {
@@ -26,13 +26,11 @@ main {
     max-width: 80%;
     border-radius: 100%;
     align-self: center;
-
-
 }
 
 section {
-    max-width: 30%;
-    max-height: 100%;
+    max-width: 25%;
+    max-height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -42,7 +40,13 @@ section {
 div {
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
+}
+
+#logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
 }
 
 a {
@@ -50,5 +54,5 @@ a {
 }
 
 p {
-    color: darkblue;
+    color: mediumblue;
 }
