@@ -59,13 +59,13 @@ p {
 
 figure {
     margin: 5px;
-    color: mediumblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 80px;
+    width: 50px;
     text-align: center;
 }
 
 .logos {
+    color: mediumblue;
     display: flex;
     flex-flow: row wrap;
 }
